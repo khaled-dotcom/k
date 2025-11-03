@@ -1,0 +1,19 @@
+{
+  "name": "empowerwork",
+  "version": "1.0.0",
+  "description": "AI-powered inclusive employment platform for people with disabilities",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python backend/server/app.py",
+    "start": "serve frontend/public",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": ["accessibility", "AI", "sign-language", "inclusive-tech"],
+  "author": "EmpowerWork Team",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {}
+}
+

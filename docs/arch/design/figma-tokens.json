@@ -1,0 +1,29 @@
+{
+  "color": {
+    "brand": {
+      "primary": { "value": "#21899F", "type": "color" },
+      "accent": { "value": "#F7941E", "type": "color" },
+      "dark": { "value": "#0b1220", "type": "color" },
+      "text": { "value": "#dfe7ec", "type": "color" },
+      "white": { "value": "#ffffff", "type": "color" }
+    },
+    "background": {
+      "deep-1": { "value": "#0b1220", "type": "color" },
+      "deep-2": { "value": "#061018", "type": "color" },
+      "card-surface": { "value": "rgba(255,255,255,0.03)", "type": "color" }
+    }
+  },
+  "typography": {
+    "h1": { "value": "86px", "type": "fontSizes" },
+    "h2": { "value": "68px", "type": "fontSizes" },
+    "body": { "value": "16px", "type": "fontSizes" },
+    "button": { "value": "16px", "type": "fontSizes" }
+  },
+  "spacing": {
+    "xs": { "value": "6px", "type": "spacing" },
+    "sm": { "value": "12px", "type": "spacing" },
+    "md": { "value": "24px", "type": "spacing" },
+    "lg": { "value": "48px", "type": "spacing" }
+  },
+  "radii": { "sm": { "value": "6px", "type": "radius" }, "md": { "value": "12px", "type": "radius" } }
+}

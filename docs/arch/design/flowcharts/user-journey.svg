@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <style>
+    .box{fill:#0b1220;stroke:#21899F;stroke-width:2;rx:10;}
+    .text{font-family:Arial, sans-serif;fill:#dfe7ec;font-size:14px}
+    .title{font-size:18px;fill:#F7941E;font-weight:700}
+    .arrow{stroke:#9fbfc6;stroke-width:2;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#9fbfc6" />
+    </marker>
+  </defs>
+
+  <text x="40" y="40" class="title">User Journey — Home → Service → Sign-up</text>
+
+  <!-- Boxes -->
+  <rect x="80" y="90" width="300" height="70" rx="8" class="box" />
+  <text x="100" y="130" class="text">Visitor arrives on Home (hero)</text>
+  <text x="100" y="150" class="text">CTA: Get Started / Sign Up</text>
+
+  <rect x="420" y="90" width="300" height="70" rx="8" class="box" />
+  <text x="440" y="130" class="text">Service / Features page</text>
+  <text x="440" y="150" class="text">Learn more / Choose plan</text>
+
+  <rect x="760" y="90" width="300" height="70" rx="8" class="box" />
+  <text x="780" y="130" class="text">Sign-up / Auth</text>
+  <text x="780" y="150" class="text">Form → Account creation</text>
+
+  <!-- Arrows -->
+  <path d="M380,125 L420,125" class="arrow" />
+  <path d="M720,125 L760,125" class="arrow" />
+
+  <!-- After sign-up flows -->
+  <rect x="200" y="240" width="320" height="70" rx="8" class="box" />
+  <text x="220" y="280" class="text">Dashboard / Personalized content</text>
+
+  <rect x="560" y="240" width="320" height="70" rx="8" class="box" />
+  <text x="580" y="280" class="text">Learning modules / Chatbot</text>
+
+  <path d="M910,125 L910,240" class="arrow" />
+  <path d="M910,240 L880,240" class="arrow" />
+
+  <!-- Feedback/Support loop -->
+  <rect x="420" y="380" width="360" height="60" rx="8" class="box" />
+  <text x="440" y="415" class="text">Feedback / Analytics → Improvements</text>
+
+  <path d="M560,310 L560,380" class="arrow" />
+  <path d="M360,160 L300,380" class="arrow" />
+
+  <!-- Legend -->
+  <text x="40" y="520" class="title">Notes</text>
+  <text x="40" y="550" class="text">- Primary goal: guide visitor to sign-up within 2-3 clicks.</text>
+  <text x="40" y="570" class="text">- CTA placement: top hero, persistent header, and in content blocks.</text>
+</svg>

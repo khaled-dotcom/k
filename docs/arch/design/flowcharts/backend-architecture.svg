@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+  <style>
+    .box{fill:#061018;stroke:#21899F;stroke-width:2;rx:8}
+    .text{font-family:Arial, sans-serif;fill:#dfe7ec;font-size:13px}
+    .title{font-size:18px;fill:#F7941E;font-weight:700}
+    .arrow{stroke:#9fbfc6;stroke-width:2;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#9fbfc6" />
+    </marker>
+  </defs>
+
+  <text x="40" y="40" class="title">Backend Architecture (services & data flow)</text>
+
+  <!-- API Gateway / Backend -->
+  <rect x="60" y="90" width="1240" height="90" class="box" />
+  <text x="80" y="130" class="text">API Gateway / REST endpoints (Auth, Courses, Progress, Quizzes, Analytics)</text>
+
+  <!-- Microservices -->
+  <rect x="80" y="220" width="360" height="120" class="box" />
+  <text x="100" y="250" class="text">Auth Service</text>
+  <text x="100" y="270" class="text">- Sign-up / Login / JWT</text>
+
+  <rect x="520" y="220" width="360" height="120" class="box" />
+  <text x="540" y="250" class="text">Content Service</text>
+  <text x="540" y="270" class="text">- Lessons, Summaries, Quizzes</text>
+
+  <rect x="960" y="220" width="320" height="120" class="box" />
+  <text x="980" y="250" class="text">Analytics & Events</text>
+
+  <!-- DBs and Storage -->
+  <rect x="260" y="380" width="320" height="110" class="box" />
+  <text x="280" y="410" class="text">User DB (Postgres)</text>
+
+  <rect x="620" y="380" width="320" height="110" class="box" />
+  <text x="640" y="410" class="text">Content Storage (S3 / object store)</text>
+
+  <rect x="980" y="380" width="320" height="110" class="box" />
+  <text x="1000" y="410" class="text">Event Store / Analytics (e.g., Snowflake / BigQuery)</text>
+
+  <!-- Arrows -->
+  <path d="M260,210 L260,380" class="arrow" />
+  <path d="M700,210 L700,380" class="arrow" />
+  <path d="M1100,210 L1100,380" class="arrow" />
+
+  <!-- Integrations & 3rd-party -->
+  <rect x="80" y="520" width="420" height="90" class="box" />
+  <text x="100" y="560" class="text">3rd-party: Email (SendGrid), Payment provider, ML service (if needed)</text>
+
+  <text x="80" y="650" class="title">Notes</text>
+  <text x="80" y="680" class="text">- Keep API surface small and RESTful; use tokens for auth. - Cache frequently used content.</text>
+</svg>
