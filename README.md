@@ -1,23 +1,14 @@
-# 🚀 EmpowerWork
+#  EmpowerWork
 
 **AI-Powered Inclusive Employment Platform for People with Disabilities**
 
 ---
 
-## 📋 Overview
+##  Overview
 
 EmpowerWork is a full-stack web platform that leverages AI and assistive technologies to bridge employment gaps for people with disabilities. Built as a graduation project, it provides real-time sign language interpretation, AI-driven accessibility tools, and inclusive hiring resources.
 
 ---
-
-## ✨ Features
-
-### Core Functionality
-- **🤖 AI Chatbot** - Groq-powered assistant for guidance and support
-- **👋 Live ASL Detection** - Real-time sign language recognition via webcam
-- **📸 Image Detection** - Computer vision for accessibility assessment
-- **♿ Inclusive Tools** - Text-to-speech, keyboard navigation, screen-reader support
-- **🎯 Smart Recruitment** - AI filters to reduce bias in candidate selection
 
 ### Tech Stack
 - **Frontend**: HTML5, CSS3, Vanilla JS, GSAP animations, Swiper.js
@@ -26,7 +17,7 @@ EmpowerWork is a full-stack web platform that leverages AI and assistive technol
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 EmpowerWork/
@@ -54,13 +45,6 @@ EmpowerWork/
 ```
 
 ---
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 14+
-- Python 3.10+
-- Modern browser with camera access
 
 ### Installation
 
@@ -107,28 +91,17 @@ window.__ASL_CONFIG__ = {
 
 ---
 
-## 📊 API Endpoints
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/health` | GET | Health check |
-| `/detect` | POST | Image/ASL detection |
-| `/detect-frame` | POST | Live webcam detection |
-| `/predict-video` | POST | Video processing |
-| `/chat` | POST | AI chatbot responses |
+##  Design System
 
----
-
-## 🎨 Design System
-
-- **Primary**: `#21899F` (Pharos Blue)
-- **Accent**: `#F7941E` (Wisdom Gold)
-- **Dark**: `#0b1220` (Midnight Navy)
+- **Primary**: `#21899F` 
+- **Accent**: `#F7941E` 
+- **Dark**: `#0b1220` 
 - **Typography**: Inter (headings), Roboto (body)
 
 ---
 
-## 🤝 Team
+##  Team
 
 - **Khaled Ghalwash** - Full Stack Developer, ML Specialist
 - **Rawan Mohamed** - Machine Learning Engineer
@@ -139,37 +112,15 @@ window.__ASL_CONFIG__ = {
 
 ---
 
-## 📝 License
 
-MIT License - See LICENSE file for details
 
----
 
-## 🙏 Acknowledgments
 
-- Groq for AI chat capabilities
-- Roboflow for computer vision models
-- Modal.com for scalable backend hosting
 
----
+##  Contact
 
-## 📈 Roadmap
-
-- [ ] User authentication & profiles
-- [ ] Job posting & application system
-- [ ] Multi-language ASL support
-- [ ] Mobile app (React Native)
-- [ ] Enterprise dashboard
-- [ ] Analytics & reporting
-
----
-
-## 📧 Contact
-
-**Email**: support@empowerwork.ai  
+**Email**: support@empowerwork.com 
 **Location**: Alexandria, Egypt
 
 ---
 
-*Built with ❤️ for inclusive employment*
-# k
