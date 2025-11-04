@@ -8,11 +8,11 @@
 
 ### DEPI Project → EmpowerWork Backend
 
-✅ **MediaPipe Hand Detection**  
-✅ **Scikit-learn Gesture Classification**  
-✅ **Real-time Video Processing**  
-✅ **Image/Frame Detection**  
-✅ **Modal.com Deployment Ready**
+ **MediaPipe Hand Detection**  
+ **Scikit-learn Gesture Classification**  
+ **Real-time Video Processing**  
+ **Image/Frame Detection**  
+ **Modal.com Deployment Ready**
 
 ---
 
@@ -43,22 +43,18 @@ EmpowerWork (Full-Stack AI Platform)
 
 ## Features Enabled
 
-### 🤖 AI Chatbot
+###  AI Chatbot
 - Groq-powered conversational AI
 - Helpful guidance for users
 
-### 👋 Live ASL Detection
+###  Live ASL Detection
 - Real-time webcam sign recognition
 - Frame-by-frame processing
 - Confidence scoring
 
-### 📸 Image Detection
+###  Image Detection
 - Upload images for sign detection
 - Base64 or URL support
-
-### 🎥 Video Processing
-- Full video analysis
-- Frame extraction & prediction
 
 ---
 
@@ -116,17 +112,6 @@ Visit your frontend and try:
 
 ---
 
-## API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/health` | GET | Health check |
-| `/chat` | POST | AI chatbot |
-| `/detect` | POST | Image detection |
-| `/detect-frame` | POST | Live frame detection |
-| `/predict-video` | POST | Video analysis |
-
----
 
 ## Performance
 
@@ -139,22 +124,14 @@ Visit your frontend and try:
 
 ## Security
 
-✅ **CORS Enabled** - For cross-origin requests  
-✅ **Environment Variables** - API keys protected  
-✅ **Modal Secrets** - Secure configuration  
-✅ **Input Validation** - Safe image processing  
+ **CORS Enabled** - For cross-origin requests  
+ **Environment Variables** - API keys protected  
+ **Modal Secrets** - Secure configuration  
+ **Input Validation** - Safe image processing  
 
 ---
 
-## Next Steps
 
-1. ✅ **Deploy to Modal.com**
-2. ✅ **Update frontend config**
-3. ✅ **Test all endpoints**
-4. ⏳ Add Groq chatbot integration
-5. ⏳ Implement user authentication
-6. ⏳ Add database for job postings
-7. ⏳ Create mobile app
 
 ---
 
